@@ -1,3 +1,7 @@
 nav{
     padding: 15px 12px;
 }
+
+nav button {
+    padding: 8px 12px;
+}
