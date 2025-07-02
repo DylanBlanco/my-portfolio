@@ -48,7 +48,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Contact Button */}
-                <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors duration-200 shadow-md hover:shadow-lg">
+                <button className="bg-orange-500 hover:bg-orange-600 text-white rounded-full text-sm font-medium transition-colors duration-200 shadow-md hover:shadow-lg">
                     Contattami
                 </button>
 
