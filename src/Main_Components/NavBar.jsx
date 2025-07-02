@@ -3,13 +3,13 @@ import '../CSS/Nav.css'
 
 const Navbar = () => {
     // LOGICA --------------------------------------------------------------------
-    // const [activeTab, setActiveTab] = useState('Home');
+    const [activeTab, setActiveTab] = useState('Home');
 
-    // const navItems = [
-    //     { name: 'Home', href: '#home' },
-    //     { name: 'Biografia', href: '#biografia' },
-    //     { name: 'Progetti', href: '#progetti' }
-    // ];
+    const navItems = [
+        { name: 'Home', href: '#home' },
+        { name: 'Biografia', href: '#biografia' },
+        { name: 'Progetti', href: '#progetti' }
+    ];
 
     // TEMPLATE ------------------------------------------------------------------
     return (
@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Navigation Links */}
-                {/* <div className="hidden md:flex items-center space-x-8">
+                <div className="hidden md:flex items-center space-x-8">
                     {navItems.map((item) => (
                         <a
                         key={item.name}
@@ -45,7 +45,7 @@ const Navbar = () => {
                         )}
                         </a>
                     ))}
-                </div> */}
+                </div>
 
                 {/* Contact Button */}
                 {/* <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors duration-200 shadow-md hover:shadow-lg">
