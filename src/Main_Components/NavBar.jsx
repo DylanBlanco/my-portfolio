@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>
                 </div>
 
-                {/* Navigation Links */}
+                {/*      */}
                 <div className="hidden md:flex items-center space-x-8">
                     {navItems.map((item) => (
                         <a
@@ -48,12 +48,13 @@ const Navbar = () => {
                 </div>
 
                 {/* Contact Button */}
-                {/* <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors duration-200 shadow-md hover:shadow-lg">
+                <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors duration-200 shadow-md hover:shadow-lg">
                     Contattami
-                </button> */}
+                </button>
 
                 {/* Mobile Menu Button */}
-                {/* <div className="md:hidden">
+                {/* <div className="md:hidden"> */}
+                {/* <div className="md">
                         <button className="text-gray-700 hover:text-orange-500 focus:outline-none">
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
