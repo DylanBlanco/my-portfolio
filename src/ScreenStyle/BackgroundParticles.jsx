@@ -28,7 +28,7 @@ export default function BackgroundParticles() {
                 const p = particles[i];
                 ctx.beginPath();
                 ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-                ctx.fillStyle = '#ffffffaa';
+                ctx.fillStyle = '#BDBDBD';
                 ctx.fill();
 
                 p.x += p.vx;
@@ -46,7 +46,7 @@ export default function BackgroundParticles() {
                         ctx.beginPath();
                         ctx.moveTo(p.x, p.y);
                         ctx.lineTo(p2.x, p2.y);
-                        ctx.strokeStyle = `rgba(255,255,255,${1 - dist / 100})`;
+                        ctx.strokeStyle = `rgba(209, 149, 65,${1 - dist / 100})`;
                         ctx.stroke();
                     }
                 }
