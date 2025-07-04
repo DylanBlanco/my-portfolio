@@ -11,9 +11,9 @@ function App() {
         <>
             <div className="h-screen screen-style relative overflow-hidden">
 
-                {/* <BackgroundParticles /> */}
+                <BackgroundParticles />
                                 
-                {/* <canvas id="bgCanvas" className="absolute top-0 left-0 w-full h-full z-0"></canvas> */}
+                <canvas id="bgCanvas" className="absolute top-0 left-0 w-full h-full z-0"></canvas>
 
                 <div className="relative z-10 container m-auto app-container">
                     <Navbar />
