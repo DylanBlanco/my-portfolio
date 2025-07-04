@@ -13,6 +13,6 @@
 /***************** SCREEN STYLE *****************/
 .screen-style {
     background: #1e1e1e;
-    position: relative;
-    overflow: hidden;
+    /* position: relative;
+    overflow: hidden; */
 }
