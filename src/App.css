@@ -12,19 +12,7 @@
 
 /***************** SCREEN STYLE *****************/
 .screen-style {
-  background: linear-gradient(90deg, #1a1a1a, #3d3d3d, #1a1a1a);
-  background-size: 200% 200%;
-  animation: futuristic-gradient 10s ease infinite;
-}
-
-@keyframes futuristic-gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+    background: #1e1e1e;
+    position: relative;
+    overflow: hidden;
 }
