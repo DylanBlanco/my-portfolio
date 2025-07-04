@@ -8,7 +8,9 @@ function App() {
 
     return (
         <>
-            <div className='h-screen bg-gradient-to-r from-orange-100 to-orange-200'>
+            <div className='h-screen screen-style'>
+            {/* <div className='h-screen bg-[#1a1a1a]'> */}
+            {/* <div className='h-screen bg-[#252524]'> */}
                 <div className="container m-auto app-container">
                     <Navbar />
                 </div>

@@ -4,7 +4,15 @@
     /* margin: 0; */
     box-sizing: border-box;
 }
- .app-container {
-    padding: 2% 0;
- }
 
+.app-container {
+    padding: 2% 0;
+}
+
+
+/***************** SCREEN STYLE *****************/
+.screen-style {
+  background: linear-gradient(90deg, #1a1a1a, #3d3d3d, #1a1a1a);
+  background-size: 200% 200%;
+  animation: futuristic-gradient 10s ease infinite;
+}
